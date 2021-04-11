@@ -1,3 +1,10 @@
 authors:
   Mickaël Canouil:
     href: http://mickael.canouil.fr
+url: http://m.canouil.fr/rocketchatr/
+template:
+  bootstrap: 4
+  bootswatch: minty
+navbar:
+  type: dark
+  bg: primary
