@@ -16,7 +16,10 @@ coverage](https://codecov.io/gh/mcanouil/rocketchatr/branch/main/graph/badge.svg
 [![R-CMD-check](https://github.com/mcanouil/rocketchatr/workflows/R-CMD-check/badge.svg)](https://github.com/mcanouil/rocketchatr/actions)
 <!-- badges: end -->
 
-An R client to interact with a Rocket.Chat server.
+Work In Progress …
+
+An R client to interact with a [Rocket.Chat](https://rocket.chat/)
+server.
 
 ## Installation
 
