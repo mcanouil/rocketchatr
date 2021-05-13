@@ -45,13 +45,15 @@ authenticate <- function(
   url <- httr::modify_url(url, path = path)
 
   resp <- httr::POST(
-    url = url,
-    config = user_agent,
-    list(
+    url = paste0(url, "?user=user&password=password"),
+    config = list(user_agent),
+    httr::authenticate(
       user = rstudioapi::askForPassword("User"),
       password = rstudioapi::askForPassword("password")
     )
+    # list(user = user, password = password)
   )
+
   if (httr::http_type(resp) != "application/json") {
     stop("API did not return json", call. = FALSE)
   }
