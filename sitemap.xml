@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://m.canouil.fr/rocketchatr/404.html</loc>
+    <loc>http://m.canouil.fr/rocketchatr//index.html</loc>
   </url>
   <url>
-    <loc>http://m.canouil.fr/rocketchatr/CODE_OF_CONDUCT.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/CONTRIBUTING.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/SUPPORT.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/authors.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/index.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/news/index.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>http://m.canouil.fr/rocketchatr/reference/rocketchatr-package.html</loc>
+    <loc>http://m.canouil.fr/rocketchatr//reference/rocketchatr-package.html</loc>
   </url>
 </urlset>
