@@ -21,7 +21,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          package: any::rmarkdown
+          extra-packages: any::rmarkdown
 
       - name: Render README.Rmd
         run: Rscript -e 'if (file.exists("README.Rmd") && file.mtime("README.Rmd") > file.mtime("README.md")) rmarkdown::render("README.Rmd")'

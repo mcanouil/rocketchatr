@@ -59,7 +59,7 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          package: any::styler
+          extra-packages: any::styler
 
       - name: Style
         run: Rscript -e 'styler::style_pkg()'
